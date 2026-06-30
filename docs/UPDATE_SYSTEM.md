@@ -12,7 +12,7 @@ Das private Entwicklungsrepository bleibt geschützt. Ziel-PCs benötigen dadurc
 
 Ein Release muss diese Bedingungen erfüllen:
 
-- Tag im Format `vX.Y.Z`, zum Beispiel `v2.0.8`
+- Tag im Format `vX.Y.Z`, zum Beispiel `v2.0.9`
 - Versionsnummer höher als die lokal installierte App-Version
 - Asset mit exakt diesem Namen:
 
@@ -30,7 +30,7 @@ Ausfuehrliche_Dokumentation.pdf
 
 1. Die App fragt `releases/latest` dieses Repositories ab.
 2. Die neueste Version wird mit der lokalen App-Version verglichen.
-3. Bei einer neueren Version fragt die App den Anwender.
+3. Bei einer neueren Version fragt die App den Anwender und zeigt nur die Patchnotes der Versionsdifferenz an.
 4. Nach Zustimmung wird `Planlage_Kamera.exe` heruntergeladen.
 5. Die laufende App wird beendet.
 6. Die EXE wird ersetzt.
