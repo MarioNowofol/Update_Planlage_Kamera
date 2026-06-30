@@ -1,5 +1,12 @@
 # Patchnotes
 
+## v2.0.9
+
+- Update-Dialog zeigt nur noch die Patchnotes der Versionsdifferenz zwischen lokal installierter Version und neuester verfügbarer Version.
+- Kopfzeile optisch nachjustiert: gleichmäßigere Logo-Abstände, bessere Titelposition und höher ausgerichteter Dark-Mode-Toggle.
+- Rechte Bedienleiste gegen Darstellungsfehler beim Maximieren stabilisiert.
+- App-Version auf 2.0.9 erhöht.
+
 ## v2.0.8
 
 - Neuer öffentlicher Update-Kanal: `MarioNowofol/Update_Planlage_Kamera`.
