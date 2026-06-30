@@ -26,6 +26,8 @@ Der vollständige Quellcode wird hier nicht veröffentlicht.
 
 Beim Start prüft die App das neueste GitHub Release dieses Repositories. Wenn eine höhere Version verfügbar ist und das Release die Datei `Planlage_Kamera.exe` enthält, fragt die App den Anwender, ob das Update installiert werden soll.
 
+Im Updatefenster werden nur die Patchnotes angezeigt, die zwischen der lokal installierten Version und der neuesten verfügbaren Version liegen.
+
 Nach Zustimmung lädt die App die neue EXE herunter, ersetzt die laufende Anwendung und startet anschließend neu.
 
 ## Aktuelle Release-Dateien
