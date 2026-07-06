@@ -1,24 +1,51 @@
 # Support
 
-Dieses Repository dient nur als öffentlicher Update-Kanal für die Anwendung **Planlage Kamera**.
+Dieses Repository enthält die Nowofol Anwendung **Planlage Kamera**.
 
-## Bei Update-Problemen prüfen
+## Zuständigkeit
 
-- Ist eine Internetverbindung vorhanden?
-- Ist GitHub vom Ziel-PC aus erreichbar?
-- Enthält das neueste Release die Datei `Planlage_Kamera.exe`?
-- Ist die Release-Version höher als die lokal installierte Version?
-- Blockiert Windows Defender oder eine Unternehmensrichtlinie den Download?
+Support und Pflege erfolgen intern durch Nowofol beziehungsweise durch die zuständigen Administratoren der Anwendung.
 
-## Lokale Diagnose
+## Empfohlener Support-Ablauf
 
-Die App schreibt bei Kameraproblemen und Updatefehlern eine Diagnose-Datei neben die EXE:
+1. Fehlerbild kurz beschreiben.
+2. App-Version aus der Titelleiste notieren.
+3. Prüfen, ob Kamera und Ablageordner erreichbar sind.
+4. Falls vorhanden, `camera_diagnostics.log` sichern.
+5. Prüfen, ob das aktuellste Release installiert ist.
 
-```text
-camera_diagnostics.log
-```
+## Informationen bei Fehlern
 
-## Hinweis
+Für eine schnelle Analyse bitte folgende Informationen bereithalten:
 
-Die Anwendung wurde gemeinsam mit Codex AI erstellt und weiterentwickelt.
+- App-Version aus der Titelleiste.
+- Windows-Version.
+- Verwendete Kamera.
+- Aktive Kameraauflösung aus der rechten Bedienleiste.
+- Beschreibung des Fehlers.
+- Zeitpunkt des Fehlers.
+- Falls vorhanden: Inhalt von `camera_diagnostics.log`.
+- Ob der Fehler nach einem Update, Kamerawechsel oder Pfadwechsel aufgetreten ist.
 
+## Typische Prüfungen
+
+- Kamera in Windows freigegeben?
+- Kamera bereits durch ein anderes Programm belegt?
+- Schreibrechte im Ablageordner vorhanden?
+- Netzwerkablage erreichbar?
+- Admin-Passwort bekannt?
+- Aktuelles GitHub Release vorhanden?
+
+## Update-Probleme
+
+Wenn die automatische Aktualisierung nicht funktioniert:
+
+- Prüfen, ob das GitHub Release ein Asset `Planlage_Kamera.exe` enthält.
+- Prüfen, ob die Release-Version höher ist als die lokale Version.
+- Bei privatem Repository prüfen, ob der Ziel-PC Zugriff auf das Release hat.
+- Prüfen, ob der Ziel-PC `https://github.com/MarioNowofol/Update_Planlage_Kamera/releases/latest` erreichen kann.
+- Prüfen, ob Sicherheitssoftware den Download einer EXE blockiert.
+
+## Wiederherstellung
+
+Wenn ein Update fehlschlägt, kann die aktuelle EXE aus dem neuesten GitHub Release erneut heruntergeladen und manuell in den Installationsordner kopiert werden. Die lokale `config.json` sollte dabei erhalten bleiben, weil sie Ablagepfad, Kameraauswahl und Passwörter enthält.

@@ -1,5 +1,21 @@
 # Patchnotes
 
+## v3.0.0
+
+- Oberfläche nach bestätigtem NOWOFOL-Design überarbeitet: Design C mit ruhiger Kopfzeile aus Design B.
+- Geführter Aufnahmeablauf mit klareren Bereichen für Auftragsdaten, Livebildprüfung, Aufnahme und Ablage.
+- Light Mode und Dark Mode optisch nachjustiert; Kopfzeile, Logo, Abstände, Eingabefelder und Statusflächen wurden vereinheitlicht.
+- Eingabeprüfung für Auftragsnummer (`FA...`), Rollennummer und Gewicht ergänzt.
+- Ungültige Eingaben werden direkt im Hauptfenster markiert; blockierende Warnfenster wurden reduziert.
+- Livebild-Performance verbessert: Vorschau wird entlastet, das volle Kamerabild bleibt für die Speicherung erhalten.
+- JPG/PNG-Auswahl und JPG-Qualität in den Einstellungen ergänzt.
+- Kameraauswahl in den Einstellungen robuster gemacht und Kamerawechsel direkt nach dem Speichern neu gestartet.
+- Doppelte Dateinamen werden erkannt; Bediener kann abbrechen, ersetzen oder mit Rollennummer-Zusatz speichern.
+- Zwei verschiebbare vertikale Referenzlinien in NOWOFOL-Orange ergänzt.
+- QS- und Admin-Zugriff für Einstellungen getrennt.
+- App startet maximiert und zeigt erfolgreiche Speicherung deutlicher an.
+- Quellcode in mehrere klar verantwortliche Dateien aufgeteilt und mit gezielten deutschen Kommentaren verbessert.
+
 ## v2.0.9
 
 - Update-Dialog zeigt nur noch die Patchnotes der Versionsdifferenz zwischen lokal installierter Version und neuester verfügbarer Version.

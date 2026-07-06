@@ -4,21 +4,21 @@ Dieses Repository ist der öffentliche Update-Kanal für die Nowofol Anwendung *
 
 Die Anwendung wurde gemeinsam mit **Codex AI** erstellt und weiterentwickelt.
 
-## Warum gibt es dieses Repository?
+## Zweck dieses Repositories
 
-Das ursprüngliche Repository `MarioNowofol/Planlage_Kamera` ist das private Entwicklungs- und Quellcode-Repository. Dort liegen der Quellcode, die Projektstruktur, interne Entwicklungsdateien und die vollständige technische Pflege der Anwendung.
+Das eigentliche Entwicklungsrepository `MarioNowofol/Planlage_Kamera` bleibt privat. Dort liegen Quellcode, Projektstruktur, interne Entwicklungsdateien und technische Pflegeinformationen.
 
-Dieses Repository `MarioNowofol/Update_Planlage_Kamera` ist bewusst öffentlich. Es enthält nur die Dateien, die für automatische Updates und Anwenderinformation benötigt werden. Dadurch kann die App auf einem normalen Ziel-PC ohne GitHub-Login und ohne zusätzlichen Token prüfen, ob eine neue Version verfügbar ist.
+Dieses Repository `MarioNowofol/Update_Planlage_Kamera` ist bewusst öffentlich. Es enthält nur die Dateien, die Ziel-PCs für automatische Updates und Anwenderinformation benötigen. Dadurch kann die App ohne GitHub-Login und ohne zusätzlichen Token prüfen, ob eine neue Version verfügbar ist.
 
-## Inhalt dieses Repositories
+## Enthaltene Dateien
 
-Dieses Repository enthält typischerweise:
+Typischer Inhalt:
 
 - `Planlage_Kamera.exe` als Release-Asset
 - `Ausfuehrliche_Dokumentation.pdf` als technische Dokumentation
 - `PATCHNOTES.md` mit Versionsänderungen
-- Hinweise zum Update-System
-- Support- und Sicherheitsinformationen
+- `docs/UPDATE_SYSTEM.md` mit Beschreibung des Update-Ablaufs
+- `SUPPORT.md` und `SECURITY.md`
 
 Der vollständige Quellcode wird hier nicht veröffentlicht.
 
@@ -30,15 +30,9 @@ Im Updatefenster werden nur die Patchnotes angezeigt, die zwischen der lokal ins
 
 Nach Zustimmung lädt die App die neue EXE herunter, ersetzt die laufende Anwendung und startet anschließend neu.
 
-## Aktuelle Release-Dateien
+## Release-Anforderung
 
-Die aktuelle Version befindet sich unter:
-
-```text
-https://github.com/MarioNowofol/Update_Planlage_Kamera/releases/latest
-```
-
-Für automatische Updates muss jedes Release mindestens diese Datei enthalten:
+Jedes produktive Release muss mindestens dieses Asset enthalten:
 
 ```text
 Planlage_Kamera.exe
@@ -50,7 +44,16 @@ Empfohlen ist zusätzlich:
 Ausfuehrliche_Dokumentation.pdf
 ```
 
+Die aktuelle Version ist immer über diese Adresse erreichbar:
+
+```text
+https://github.com/MarioNowofol/Update_Planlage_Kamera/releases/latest
+```
+
+## Sicherheitsprinzip
+
+In diesem öffentlichen Repository dürfen keine Passwörter, Tokens, internen Konfigurationsdateien oder vertraulichen Entwicklungsinformationen abgelegt werden.
+
 ## Betreiber
 
 Nowofol Kunststoffprodukte GmbH & Co. KG
-
