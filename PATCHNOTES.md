@@ -1,5 +1,11 @@
 # Patchnotes
 
+## v3.0.1
+
+- Updateverfahren erfolgreich gegen den öffentlichen Update-Kanal getestet.
+- App-Beenden stabilisiert: Der Kamera-Reader wird beim Schließen abgemeldet, kontrolliert gestoppt und zuverlässig freigegeben.
+- Verhindert, dass die Anwendung nach einem Update oder nach normalem Fensterschließen im Hintergrund weiterläuft.
+
 ## v3.0.0
 
 - Oberfläche nach bestätigtem NOWOFOL-Design überarbeitet: Design C mit ruhiger Kopfzeile aus Design B.
